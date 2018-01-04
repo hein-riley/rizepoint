@@ -1,0 +1,266 @@
+.heading-border-green {
+	border-bottom: $green solid 5px;
+	margin: 45px 0px;
+}
+.fbpi-details {
+	padding: 10px;
+	margin-bottom: 50px;
+}
+.press-list {
+	border-top: 1px solid #eee;
+	padding-top: 34px;
+}
+.blog-ajax-post {
+	clear: both;
+}
+a.read-more-link {
+	display: block;
+	padding-top: 5px;
+	color: $purple;
+}
+.blog-overview-list {
+	border-bottom: 1px solid #BBBCBC;
+	overflow: auto;
+	float: left;
+	margin: 25px 0;
+	padding: 0;
+}
+/* instead of using ARGS in the php call. this CSS hides the first article. The AJAX function is struggling to pass the offset argument to the handler. */
+.blog-overview-list:first-child {
+	display: none !important;
+}
+.blog-ov-h5{
+	font-family: $gotham-book, sans-serif;
+}
+.blog-overview-img-wrapper {
+	padding-left: 0;
+	padding-right: 0;
+	height: 192px;
+	overflow: hidden;
+}
+img.blog-overview-img {
+	padding-top: 13px;
+}
+.blog-overview-details {
+	padding-right: 0;
+}
+.blog-content-section h2 {
+	font-size: 3rem;
+}
+.blog-content-section h3{
+	font-size: 2.5rem;
+}
+.blog-content-section h4{
+	font-size: 2rem;
+}
+h2.post-sub-header {
+    color: $textColor;
+    font-size: 2rem;
+    padding-bottom: 35px;
+    font-family: $gotham-book;
+}
+#blog-header{
+	padding-bottom: 100px;
+}
+.post-title, .post-author{
+	font-family: $gotham-book;
+}
+.post-date{
+	font-family: $gotham-book;
+	padding-bottom: 25px;
+}
+.authorImg {
+    width: 100%;
+    padding: 0 15px 15px 0;
+    max-width: 155px;
+}
+.blog-related-ov{
+	list-style: none;
+	padding-bottom: 30px;
+}
+.blog-new-nav {
+    color: $textColor !important;
+}
+.pagination-previous-post li{
+	list-style: none;
+	float: left;
+	padding: 0px;
+}
+.pagination-next-post li{
+	float: right;
+	padding: 0px;
+	list-style: none;
+}
+.related-post-title {
+	padding: 90px 0px 10px 0px;
+}
+.blog-related-img {
+    width: 100%;
+	padding-bottom: 7px;
+}
+.blog-related-title {
+	margin-bottom: 50px;
+}
+.size-medium, .size-large, .size-medium_large, .size-full, .size-thumbnail{
+	width: 100%;
+	height: auto;
+	padding: 35px 0;
+}
+.size-thumbnail{
+	max-width: 150px
+}
+.size-medium{
+	max-width: 300px;
+}
+.size-large{
+	max-width: 768px;
+}
+.size-full{
+	max-width: 1024px;
+}
+.post-detail {
+    float: left;
+    padding-right: 5px;
+    font-size: 1.7rem;
+}
+.post-location {
+	text-transform: uppercase;
+}
+.blog-content-section {
+    padding-bottom: 50px;
+}
+.post-nav-wrapper {
+    margin: 80px 0;
+	
+	ul {
+		padding: 0px;
+	}	
+}
+	
+/* feature img */
+.featured-post-img-wrapper {
+    width: 100%;
+    float: left;
+    max-width: 400px;
+    padding: 0 15px 0 0;
+}
+	
+/* hide the add to any plugin 
+ * use jquery to display if the user is on blog or press release
+*/
+.a2a_kit.a2a_kit_size_32.a2a_floating_style.a2a_vertical_style{
+	display: none;
+}
+.addtoany_share_save_container {
+    display: none;
+}
+.a2a_svg svg {
+    background-color: $blue;
+}
+.blog-post {
+    padding: 16px;
+    height: 685px;
+}
+.post-content {
+    height: 160px;
+}
+.post-bg {
+    height: 200px;
+    width: 100%;
+    background-position: center;
+}
+.blog-author {
+    font-size: .9rem;
+}
+.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
+    width: 100%;
+    height: auto;
+}
+.alignnone.size-medium {
+    max-width: 400px !important;
+    height: auto;
+    padding-top: 35px;
+}
+.screen-reader-text {
+    color: $green;
+    font-size: 3rem;
+}
+.page-numbers {
+    padding-right: 7px;
+    font-size: 1.7rem;
+}
+.pagination {
+    padding-top: 50px;
+}
+.blog-categories ul,
+.press-loop ul {
+    padding-left: 3px;
+    margin: 0;
+}
+.press-loop ul li {
+    padding-bottom: 10px;
+}
+.pagination-location {
+    padding-bottom: 40px;
+    clear: both;
+}
+.indie-blog {
+    padding-top: 35px;
+}
+.small-header {
+    padding-bottom: 50px;
+}
+.attachment-.size-.wp-post-image {
+    height: auto;
+    width: auto;
+    padding-bottom: 35px;
+    max-width: 100%;
+}
+.blog-content {
+    padding-bottom: 50px;
+    clear: both;
+}
+.wp-caption {
+    float: right;
+}
+.alignright {
+    text-align: right;
+	width: auto;
+}
+.alignleft {
+    text-align: left;
+    float: left;
+    margin-right: 15px;
+	width: auto;
+}
+.aligncenter {
+    text-align: center;
+	width: auto;
+}
+.post-title {
+    padding-bottom: 10px;
+}
+.blog-post-author {
+    margin-bottom: 20px;
+    float: left;
+    clear: both;
+}
+.blog-content h2 {
+    font-size: 3rem;
+}
+.blog-content p {
+    font-size: 1.3em;
+}
+.bio-img {
+    width: 100%;
+    max-width: 250px;
+}
+.authorBio {
+    border: 1px solid #eee;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    width: 100%;
+}
+.athDesc {
+    font-size: 1.5rem;
+}

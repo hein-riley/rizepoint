@@ -1,0 +1,27 @@
+.news-icon-wrapper {
+  width: 100%;
+  height: 53px;
+  box-shadow: 1px 1px 1px;
+  margin-bottom: 80px; }
+
+ul.news-tab {
+  font-weight: 700;
+  width: 660px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0px; }
+
+.post-content {
+  margin-bottom: 50px; }
+
+.news-articles-list h3 {
+  text-transform: uppercase; }
+
+.press-release-class {
+  border-bottom: 5px solid;
+  margin-bottom: 30px;
+  padding-bottom: 15px; }
+
+.news-dated {
+  padding-bottom: 15px; }

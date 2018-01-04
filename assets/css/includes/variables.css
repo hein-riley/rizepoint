@@ -1,0 +1,34 @@
+@font-face {
+  font-family: gotham-book;
+  src: url("assets/fonts/rizepoint-fonts/gothamhtf-book-webfont.ttf"); }
+@font-face {
+  font-family: gotham-thin;
+  src: url("assets/fonts/rizepoint-fonts/Gotham-Thin.otf"); }
+@font-face {
+  font-family: gotham-ultra;
+  src: url("assets/fonts/rizepoint-fonts/Gotham-Ultra.otf"); }
+@font-face {
+  font-family: gotham-bold;
+  src: url("assets/fonts/rizepoint-fonts/Gotham-Bold.otf"); }
+@font-face {
+  font-family: round-gotham;
+  src: url("assets/fonts/rizepoint-fonts/GothamRounded-Book.ttf"); }
+@font-face {
+  font-family: round-italic;
+  src: url("assets/fonts/rizepoint-fonts/GothamRounded-BookItalic.ttf"); }
+@font-face {
+  font-family: round-thin;
+  src: url("assets/fonts/rizepoint-fonts/GothamRnd-Light.otf"); }
+@font-face {
+  font-family: round-bold;
+  src: url("assets/fonts/rizepoint-fonts/GothamRounded-Bold.ttf"); }
+/* fonts */
+/* primary */
+/* darkest */
+/* lightest */
+/* accents */
+/* black and whites */
+/* text color*/
+/* text hover dark colors */
+/* font-sizes */
+/* screensize */

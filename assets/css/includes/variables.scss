@@ -1,0 +1,101 @@
+@font-face{
+    font-family: gotham-book;
+    src: url('assets/fonts/rizepoint-fonts/gothamhtf-book-webfont.ttf');
+}
+@font-face{
+    font-family: gotham-thin;
+    src: url('assets/fonts/rizepoint-fonts/Gotham-Thin.otf');
+}
+@font-face{
+    font-family: gotham-ultra;
+    src: url('assets/fonts/rizepoint-fonts/Gotham-Ultra.otf');
+}
+@font-face{
+    font-family: gotham-bold;
+    src: url('assets/fonts/rizepoint-fonts/Gotham-Bold.otf');
+}
+@font-face{
+    font-family: round-gotham;
+    src: url('assets/fonts/rizepoint-fonts/GothamRounded-Book.ttf');
+}
+@font-face{
+    font-family: round-italic;
+    src: url('assets/fonts/rizepoint-fonts/GothamRounded-BookItalic.ttf');
+}
+@font-face{
+    font-family: round-thin;
+    src: url('assets/fonts/rizepoint-fonts/GothamRnd-Light.otf');
+}
+@font-face{
+    font-family: round-bold;
+    src: url('assets/fonts/rizepoint-fonts/GothamRounded-Bold.ttf');
+}
+
+/* fonts */
+$gotham-book:   gotham-book;
+$gotham-thin:	gotham-thin;
+$gotham-bold:	gotham-bold;
+$gotham-ultra:	gotham-ultra;
+$round-gotham:	round-gotham;
+$round-italic:	round-italic;
+$round-thin:	round-thin;
+$round-ultra:	round-ultra;
+
+/* primary */
+$orangeOne:     #fc842a; /* darkest */
+$orangeTwo:     #fcb040; 
+$orangeThree:   #f4c540; /* lightest */
+$yellow:        #f7d569; 
+
+/* accents */
+$purple:        #a15a95;
+$blue:          #59bec9;
+$green:         #28b29a;
+$pink:          #e76b7c; 
+
+/* black and whites */
+$black:         #2c2929;
+$gray:          #6b6b6b;
+$lightGray:     #FAFAFA;
+$white:         #ffffff;
+$otherGray:     #bbbcbc;
+$bgGray:        #FAFAFA;
+$gray-2: 		#eee;
+
+/* text color*/
+$textColor:		#95989A;
+
+/* text hover dark colors */
+$orangeOne-hover:     darken($orangeOne, 	10);
+$orangeTwo-hover:     darken($orangeTwo, 	10);
+$orangeThree-hover:   darken($orangeThree,	10);
+$yellow-hover:        darken($yellow, 		10); 
+
+$purple-hover:        darken($purple, 		10);
+$blue-hover:          darken($blue, 		10);
+$green-hover:         darken($green, 		10);
+$pink-hover:          darken($pink, 		10); 
+
+$black-hover:         darken($black, 		10);
+$gray-hover:          darken($gray, 		10);
+$lightGray-hover:     darken($lightGray, 	10);
+$white-hover:         darken($white, 		10);
+$otherGray-hover:     darken($otherGray, 	10);
+$bgGray-hover:        darken($bgGray, 		10);
+
+
+/* font-sizes */
+$banner-font:   	6rem;
+$home-banner-font: 	4rem;
+
+/* screensize */
+$lg-desktop:   		1500px;
+$md-desktop:    	1440px;
+$sm-desktop:    	1024px;
+$tablet:        	768px;
+$lg-mobile:     	425px;
+$md-mobile:     	375px;
+$sm-moblie:     	320px;
+
+
+

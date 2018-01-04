@@ -1,0 +1,134 @@
+/* NOTE:
+** These btns have a dependency on bootstraps
+** .btn class. In order to use, your html class 
+** needs to have btn and then your choice of these.
+**/
+
+.btn-lg {
+    font-size: 1.7rem;
+	width: 100%;
+	max-width: 250px;
+}
+.btn-md {
+    font-size: 1.5rem;
+	width: 100%;
+	max-width: 200px;
+}
+.btn-width{
+	width: 100%;
+	max-width: 200px;
+}
+.btn-width-lg{
+	width: 100%;
+	max-width: 240px;
+}
+.btn-orange{
+    color: $white;
+    background-color: $orangeTwo;
+    border-color: $orangeTwo;
+	@extend .box-shadow;
+}
+.btn-orange:hover{
+    color: $white;
+    background-color: darken($orangeTwo, 10);
+    border-color: darken($orangeTwo, 10);
+}
+.btn-inverse-orange{
+    color: $orangeTwo;
+    border-color: $orangeTwo;
+	background: transparent;
+}
+.btn-inverse-orange:hover{
+    color: $white;
+    background-color: $orangeTwo;
+    border-color: $orangeTwo;
+    transition: 0.5s ease;
+}
+.btn-green{
+    color: $white;
+    background-color: $green;
+    border-color: $green;
+	@extend .box-shadow;
+}
+.btn-green:hover{
+    color: $white;
+    background-color: darken($green, 10);
+    border-color: darken($green, 10);
+}
+.btn-inverse-green{
+    color: $green;
+    border-color: $green;
+	background: transparent;
+}
+.btn-inverse-green:hover{
+    color: $white;
+    background-color: $green;
+    border-color: $green;
+    transition: 0.5s ease;
+}
+.btn-purple{
+    color: $white;
+    background-color: $purple;
+    border-color: $purple;
+	@extend .box-shadow;
+}
+.btn-purple:hover{
+    color: $white;
+    background-color: darken($purple, 10);
+    border-color: darken($purple, 10);
+}
+.btn-inverse-purple{
+    color: $purple;
+    border-color: $purple;
+	background: transparent;
+}
+.btn-inverse-purple:hover{
+    color: $white;
+    background-color: $purple;
+    border-color: $purple ;
+    transition: 0.5s ease;
+}
+.btn-blue{
+    color: $white;
+    background-color: $blue;
+    border-color: $blue;
+	@extend .box-shadow;
+}
+.btn-blue:hover{
+    color: $white;
+    background-color: darken($blue, 10);
+    border-color: darken($blue, 10);
+}
+.btn-inverse-blue{
+    color: $blue;
+    border-color: $blue;
+	background: transparent;
+}
+.btn-inverse-blue:hover{
+    color: $white;
+    background-color: $blue;
+    border-color: $blue;
+    transition: 0.5s ease;
+}
+.btn-white{
+	background: $white;
+	@extend .box-shadow;
+}
+.btn-inverse-white{
+	color: $white;
+	border-color: $white;
+	background: transparent;
+}
+.btn-inverse-white:hover{
+	color: $gray;
+	background: $white;
+	transition: 0.5s ease;
+}
+.banner-buttons {
+    border: 1px solid $white;
+    border-radius: 5px;
+    background: 0 0;
+    padding: 5px 15px;
+    margin: 20px;
+}
+

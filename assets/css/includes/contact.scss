@@ -1,0 +1,42 @@
+.contact-info-wrapper{
+	padding: 50px 0;
+}
+.contact-intro{
+	padding-top: 70px;
+	padding-right: 100px;
+}
+.contact-space{
+	margin-top: 50px;
+}
+.contact-text {
+    font-size: 21px;
+    padding: 40px 40px 70px;
+    font-weight: 600;
+}
+.contact-form {
+    padding-top: 25px;
+    margin-top: 40px;
+    padding-bottom: 25px;
+}
+.contact-details {
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+#contact-map {
+    height: 450px;
+    width: 100%;
+}
+.contact-email {
+    margin-top: 15px;
+    padding-bottom: 35px;
+}
+.contact-email{
+	a {
+		color: $orangeTwo;
+	}
+} 
+.footer-card{
+	li a {
+		color: $white;
+	}
+} 

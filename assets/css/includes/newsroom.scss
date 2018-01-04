@@ -1,0 +1,395 @@
+.post-content{
+	margin-bottom: 20px;
+	padding-bottom: 35px;
+}
+.press-releases-archive h4{
+	text-transform: uppercase;	
+}
+.press-release-class{
+	border-bottom: 5px solid;
+	margin-bottom: 30px;
+	padding-bottom:15px;
+}
+.nav-parts{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.media-contact{
+	padding-bottom: 20px;
+}
+.newsroom-navbar {
+    border-bottom: 1px solid $gray-2;
+    padding: 10px 0;
+}	
+.newsroom-pills {
+    display: flex;
+    justify-content: center;
+    float: none !important;
+}
+.news-icon-wrapper{
+    width: 100%;
+    height: 53px;
+    box-shadow: 1px 1px 1px;
+	margin-bottom: 80px;
+}
+.media-wraps {
+    padding-bottom: 50px;
+}
+.media-box-wrapper {
+    background: $lightGray;
+    padding: 15px;
+}
+.media-img-box-wrapper {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid $gray-2;
+}
+ul.news-tab {
+	font-weight: 700;
+	width: 845px;
+	margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+}
+.date-display{
+	margin-right: -35px;
+}
+.media-contact-sb {
+    border-bottom: 1px solid $gray-2;
+    padding-bottom: 35px;
+    margin-bottom: 40px;
+}
+.news-banner {
+    background: url(http://landing.rizepoint.com/wp-content/uploads/2016/02/Demo-v2.jpg) no-repeat #eee;
+    background-size: cover;
+    height: 450px;
+    padding: 70px;
+    position: relative;
+}
+.news-banner-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 30%;
+}
+.icon {
+    font-size: 5rem;
+}
+li.news-icon-title {
+    display: inline-block;
+}
+.n-icon {
+    color: $gray;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.n-icon:hover {
+    color: $otherGray;
+}
+.n-icon:active,
+.ntext:active {
+    outline: 0;
+}
+.news-icon-title a,
+.news-icon-title a:active {
+    color: #6d6d6d!important;
+}
+li.active a,
+li.active a:hover {
+    outline: 0!important;
+}
+.news-banner h2,
+.news-banner h3 {
+    color: $white;
+    text-shadow: 0 0 30px #000;
+}
+section.news-archive article .news-post h3 {
+    font-size: 1.5em!important;
+    line-height: 33px!important;
+    text-transform: uppercase!important;
+    color: $gray!important;
+}
+ul.news-articles-list {
+    padding: 0;
+    margin: 0;
+}
+section.press-release article hr,
+section.press-releases-archive article hr {
+    border-color: #f8c671!important;
+    border-width: 1px!important;
+}
+.compliance-solutions {
+    background: 0 0!important;
+}
+h3.newsroom-title-thing {
+    font-size: 3.125em;
+    line-height: 1em;
+    letter-spacing: 2px;
+    font-family: verbsemibold;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+hr.newsroom-title-heading {
+    border-color: #f8c671;
+    border-width: 1px;
+    max-width: 250px;
+    margin-bottom: 3rem;
+}
+article.article-newsroom-wrapper {
+    padding: 2rem 1rem;
+}
+img.newsroom-icon-png-img {
+    width: 100%;
+    max-width: 150px;
+}
+img.news-post-img {
+    max-width: 100%;
+    max-height: 200px;
+    float: left;
+}
+.press-list ul {
+    padding: 0;
+    margin: 0;
+}
+.press-list li {
+    list-style: none;
+}
+
+
+/* NEED TO FIGURE OUT WHAT THIS IS DOING
+ *
+ * Looks like it's pulling in some of the resources and previous newsroom
+ * Once we get the newsroom and resources rebuilt, look at this to see if it 
+ * breaks.
+ *
+ * - Travis 
+ *
+*/
+@media only screen and (max-width: 828px) {
+    h2.resoure-heading {
+        top: 20%;
+    }
+    a.welcome-btn {
+        max-width: 100%;
+    }
+    .message-wrapper {
+        margin-top: 70px!important;
+    }
+    .slick-initialized .slick-slide {
+        padding: 15px;
+    }
+}
+@media screen and (max-width: 760px) {
+    ul.news-tab,
+    ul.tab-links,
+    ul.tab-menu {
+        display: none;
+    }
+    ul.tab-menu {
+        position: static;
+    }
+    li.tab-list {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        margin: 0 0 1px;
+    }
+    li.tab-list a,
+    ul.tab-menu li.tab-list {
+        width: 100%;
+    }
+    li.tab-list a {
+        background: orange;
+        color: $white;
+    }
+    input[type=checkbox]:checked~#tab-menu {
+        display: block;
+        padding: 0!important;
+        margin: 0;
+        width: 100%;
+    }
+    .show-menu {
+        display: block;
+    }
+    .how-we-explain {
+        padding: 30px;
+    }
+    .explain-wrapper {
+        padding: 30px 40px 20px;
+    }
+    .hw-cta-btn-wrapper {
+        margin-bottom: 30px;
+    }
+    .pa-banner-wrapper {
+        top: 15%;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .content-area,
+    .how-we-left,
+    .how-we-right,
+    .how-we-right h3,
+    .how-we-right li,
+    .products-content-area,
+    .ps-right,
+    .welcome-message {
+        text-align: center;
+    }
+    .headline-col-1 {
+        margin-bottom: 30px;
+        padding: 0;
+    }
+    .headline-col-2,
+    .headline-col-3 {
+        padding: 0;
+        height: auto;
+    }
+    .hc2-2-post {
+        margin-top: 30px;
+    }
+    .hc3-1-post {
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    .headline-col-2-wrapper {
+        margin-bottom: 12px;
+    }
+    .hc2-1-post,
+    .hc2-2-post,
+    .hc3-1-post,
+    .hc3-2-post {
+        height: 50%;
+    }
+    .resource-col {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .headline-col-2-wrapper,
+    .headline-col-3-wrapper,
+    .headline-posts-container {
+        border-bottom: none;
+    }
+    .resource-col-title {
+        position: absolute;
+    }
+    .resource-modal {
+        width: 100%!important;
+    }
+    .spark-content-wrapper {
+        padding: 40px;
+    }
+    .product-section-wrapper {
+        padding: 50px 20px;
+    }
+    img.product-section-img {
+        max-width: none;
+    }
+    section.solutions-single aside .products-banner-section hr {
+        position: relative;
+        max-width: 200px;
+        width: 100%;
+        margin: 15px auto 0;
+    }
+    .right-hr {
+        right: 0;
+    }
+    .products-content-area {
+        padding: 30px 0;
+    }
+    .content-area,
+    li.news-icon-title {
+        padding-top: 30px;
+    }
+    .displayOn {
+        display: none;
+    }
+    .displayOff {
+        display: block;
+    }
+    .n-icon {
+        width: auto;
+        padding-right: 15px;
+        font-size: 2.4em;
+    }
+    .how-we-right h3 {
+        padding-top: 35px;
+    }
+    .how-we-right li {
+        list-style: none;
+        padding: 10px;
+        border-bottom: 1px solid;
+    }
+    .how-we-cta {
+        top: 17em;
+    }
+    .blue-way-text {
+        padding-bottom: 35px;
+    }
+    .pa-right {
+        margin-top: 50px;
+    }
+    img.wp-logo-img {
+        padding: 0 0 60px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    article.products-banner-text {
+        margin-top: -251px;
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 476px) {
+    h2.resoure-heading {
+        top: initial;
+        bottom: 0;
+        margin: 0;
+        width: 100%;
+    }
+    section.engage-block,
+    section.roi-block {
+        padding: 45px;
+    }
+    .blue-way-jay {
+        padding: 50px;
+    }
+    .how-we-explain {
+        padding: 10px;
+    }
+    .how-we-video-wrapper h3 {
+        display: none;
+    }
+    .how-we-info-left,
+    .how-we-info-right {
+        padding: 35px 0;
+    }
+    .how-we-customers {
+        padding: 0;
+    }
+    .how-we-cta {
+        top: 10em;
+    }
+    .how-we-section-2 {
+        padding: 10px 10px 35px;
+    }
+    .explain-wrapper {
+        padding: 30px 15px 20px;
+    }
+    .how-we-cta h3 {
+        text-shadow: none;
+    }
+}
+.error-mes h1,
+.error-mes h3 {
+    font-family: $gotham-book;
+    text-shadow: 2px 2px 4px #000;
+    color: $white;
+}
+@media only screen and (max-width: 373px) {
+    .pa-banner-wrapper {
+        top: 0;
+    }
+}
